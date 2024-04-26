@@ -8,7 +8,7 @@ html,body{
     height: 100%;    
 }
 .container{
-    width: 300px;
+    width: 250px;
     display:flex;
     flex-direction: column;
     background-color: rgb(50, 50, 50);
@@ -51,8 +51,15 @@ input{
 }
 button{
     color:rgb(78, 77, 77);
-    background-color: lime;
+    background-color:rgb(72, 228, 0) ;
 }
 #signup{
-    color:springgreen !important;
+    color:rgb(0, 255, 47) !important;
+}
+#gap{
+    height: 15px;
+}
+button:hover{
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.8);
+    background-color: lime;
 }
